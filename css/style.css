@@ -154,7 +154,7 @@ nav .search-box span:hover{
     position: relative;
 }
 .footer .footer-content{
-    border: 1px solid yellow;
+    
     height: 400px;
     display: flex;
 }
@@ -162,7 +162,7 @@ nav .search-box span:hover{
 .footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
-    border: 1px solid white;
+  
 }
 
 .footer .footer-content h1,
