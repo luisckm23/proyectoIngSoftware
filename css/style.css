@@ -8,6 +8,10 @@ body{
 }
 *{
     box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:quicksand;
 }
 ul{
     list-style: none;
@@ -16,85 +20,74 @@ a{
     text-decoration:none;
 }
 nav{
-    width:100%;
-    box-shadow:2px 2px 30px rgba(0, 0, 0, 0.05);
-    z-index:100;
-}
-.navigation{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0px 45px;
-}
-.logo img{
-    height: 150px;
-}
-.menu{
     display: flex;
-}
-.menu li{
+    width: 100%;
+    background: #0a5071;
     position:relative;
-    margin:20px;
-    display: flex;
-    text-transform: uppercase;
-    font-weight:500;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
 }
-.menu li a{
-    color: #555555;
+
+.logo img{
+    height: 120px;
+    cursor: pointer;
 }
-.right-menu a{
-    margin:0px 10px;
-    font-size:1.2rem;
-    color:rgba(0, 0, 0, 0.7);
-    
+nav ol{
+    display:flex;
+    list-style: none;
+    margin: auto 0;
 }
-.menu a:hover,
-.right-menu a:hover{
+nav ol li{
+    margin:0 2px;
+}
+nav ol li a{
+    color:#ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
     color:rgb(248, 184, 21);
     transition:all ease 0.3s;
 }
+
 .fa-shopping-cart{
-    position:relative;
+    position:absolute;
+}
+.fa-shopping-user{
+    position:absolute;
 }
 
-.search-box{
-    position: relative;
-    background: rgba(0, 0, 0, 0.05);
-    height: 0px;
-    border-radius: 0px;
-    padding: 0px;
+nav .search-box{
+    display:flex;
+    margin:auto 0;
+    height:35px;
+    line-height: 35px;
 }
-
-.search-box:hover>.search-txt{
-    width:240px;
-    background: rgba(0, 0, 0, 0.05);
-    padding:0 6px;
-}
-.search-box:hover>.search-btn{
-    background: rgba(0, 0, 0,0.7);
-}
-
-.search-btn{
-    color: rgba(0, 0, 0, 0.05);
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition:0.4s;
-}
-
-.search-txt{
+nav .search-box input{
     border:none;
-    background: none;
     outline: none;
-    float:left;
-    padding: 0;
-    color: black;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
+    background: #ffffff;
+    height: 100%;
+    padding:0 10px;
+    font-size: 20px;
+    width:350px;
 }
+nav .search-box span{
+    color: #0a5071;
+    font-size:20px;
+    background:#ffffff;
+    height: 100%;
+    padding:8px;
+    position:relative;
+    cursor: pointer;
+    z-index: 1;
+}
+nav .search-box span:hover{
+    color: rgb(248, 184, 21);
+    transition:all ease 0.3s; 
+}
+
