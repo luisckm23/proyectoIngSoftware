@@ -60,18 +60,22 @@ nav{
 .search-box{
     position: relative;
     background: rgba(0, 0, 0, 0.05);
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
+    height: 0px;
+    border-radius: 0px;
+    padding: 0px;
 }
 
 .search-box:hover>.search-txt{
     width:240px;
+    background: rgba(0, 0, 0, 0.05);
     padding:0 6px;
+}
+.search-box:hover>.search-btn{
+    background: rgba(0, 0, 0,0.7);
 }
 
 .search-btn{
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.05);
     float: right;
     width: 40px;
     height: 40px;
@@ -79,6 +83,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:0.4s;
 }
 
 .search-txt{
@@ -87,7 +92,7 @@ nav{
     outline: none;
     float:left;
     padding: 0;
-    color: white;
+    color: black;
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
