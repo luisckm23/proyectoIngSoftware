@@ -150,12 +150,12 @@ nav .search-box span:hover{
 .footer {
     background: #0a5071;
     color: #d3d3d3;
-    height: 450px;
+    height: 350px;
     position: relative;
 }
 .footer .footer-content{
     
-    height: 400px;
+    height: 200px;
     display: flex;
 }
 
