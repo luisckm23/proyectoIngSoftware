@@ -55,10 +55,20 @@ nav ol li:hover a{
 }
 
 .fa-shopping-cart{
-    position:absolute;
+    color:#ffffff;
+
 }
-.fa-shopping-user{
-    position:absolute;
+.fa-user{
+    color:#ffffff;
+    
+}
+.fa-shopping-cart:hover{
+    color:rgb(248, 184, 21);
+    transition:all ease 0.3s;
+}
+.fa-user:hover{
+    color:rgb(248, 184, 21);
+    transition:all ease 0.3s;
 }
 
 nav .search-box{
