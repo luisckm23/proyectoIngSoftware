@@ -14,6 +14,9 @@ html, body{
     box-sizing: border-box;
     font-family:quicksand;
 }
+li{
+    color:#ffffff;
+}
 
 a{
     text-decoration:none;
@@ -186,6 +189,7 @@ nav .search-box span:hover{
 
 .footer .footer-content .about .socials a{
     border: 1px solid yellow;
+    color:#ffffff;
     width: 45px;
     height: 41px;
     padding-top: 5px; 
@@ -205,6 +209,7 @@ nav .search-box span:hover{
 
 .footer .footer-section .links ul a {
     display: block;
+    color:#ffffff;
     margin-bottom: 10px;
     font-size: 1.2em;
     transition: all .3s;
