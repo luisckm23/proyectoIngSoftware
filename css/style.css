@@ -151,14 +151,14 @@ nav .search-box span:hover{
 /*Banner*/
 
 .slidershow{
-    width: 700px;
-    height: 400px;
+    width: 1350px;
+    height: 700px;
     overflow: hidden;
 }
 
 .middle{
     position: absolute;  
-    top: 50%;
+    top: 71.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -174,14 +174,14 @@ nav .search-box span:hover{
 .bar{
     width: 50px;
     height: 10px;
-    border: 2px solid #fff ; 
+    border: 2px solid #fff; 
     margin: 6px ;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .bar:hover{
-    background: #fff ;
+    background: #fff;
 }
 
 input[name="r"]{
@@ -205,20 +205,20 @@ input[name="r"]{
     height: 100%;
 }
 
-#r1:checked ~ s1{
-    margin-left:0;
+#r1:checked ~ .s1{
+    margin-left: 0;
 }
 
-#r2:checked ~ s1{
-    margin-left:-20;
+#r2:checked ~ .s1{
+    margin-left: -20;
 }
 
-#r3:checked ~ s1{
-    margin-left:-40;
+#r3:checked ~ .s1{
+    margin-left: -40;
 }
 
-#r4:checked ~ s1{
-    margin-left:-80;
+#r4:checked ~ .s1{
+    margin-left: -80;
 }
 
 /*Cierra banner CSS*/
