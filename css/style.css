@@ -146,7 +146,9 @@ nav .search-box span:hover{
 }
 
 /*Banner*/
-
+.table-home{
+    cursor: pointer;
+}
 
 /*Cierra banner CSS*/
 
