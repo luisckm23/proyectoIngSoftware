@@ -1,0 +1,44 @@
+.our-team{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-team.conttainer--flex{
+    align-items: flex-start;
+}
+
+.our-team__title{
+    font-family: 'Pacífico', cursive;
+    color: #FEC046;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.our-team__img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.our-team__txt{
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (min-width:1024){
+    .our-team__img{
+        width: 310;
+        height: 310;
+    }
+}
+
+@media screen and (min-width:1600){
+    .our-team__img{
+        width: 420;
+        height: 420;
+    }
+}
