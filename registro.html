@@ -40,43 +40,64 @@
 
 </head>
 <body>
-    <!--Banner-->
- 
-    <div class="slidershow middle">
-
-        <div class="slides">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-
-            <div class="slide s1">
-                <img src="images/banner1.jpg" alt="">
+  <!--Registro usuarios-->
+  <div class="registration">
+    <div class="container">
+        <div class="title">Registration form</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombre</span>
+                    <input type="text" placeholder="Ingresa nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nombre de usuario</span>
+                    <input type="text" placeholder="Nombre de usuario" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Correo electrónico</span>
+                    <input type="text" placeholder="Ingresa email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Contraseña</span>
+                    <input type="password" placeholder="Ingresa contraseña" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirmar Contraseña</span>
+                    <input type="password" placeholder="Confirmar contraseña" required>
+                </div>
             </div>
-            <div class ="slide">
-                <img src="images/banner2.jpg" alt="">
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot un"></span>
+                        <span class="gender">Masculino</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot deux"></span>
+                        <span class="gender">Femenino</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot trois"></span>
+                        <span class="gender">Prefiero no decirlo</span>
+                    </label>
+                </div>
             </div>
-            <div class ="slide">
-                <img src="images/banner3.jpg" alt="">
+            <div class="buttonreg">
+                <input type="submit" value="Registrarse">
+
             </div>
-            <div class ="slide">
-                <img src="images/banner4.jpg" alt="">
-            </div>
-        </div>
-        <div class="navigation">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
-            <label for="r4" class="bar"></label>
-
-
-
-
-        </div>
-
-
-
+        </form>
     </div>
+</div>
+
+
+
+   
  
     
 
@@ -92,8 +113,9 @@
  <div class="footer-content">
 
     <div class="footer-section about"> 
-        <h1 class="logo-text"><span><a href="sobre_nosotros.html"</a></span>Nuestra historia</h1> <br>
+        <h1 class="logo-text"><span>Somos</span>Nosotros</h1> <br>
         <p>
+            
 
         </p>
         <br>
@@ -164,4 +186,3 @@
 <!-- // footer -->
 </body>
 </html>
-
