@@ -151,6 +151,8 @@ nav .search-box span:hover{
 
 /*Banner*/
 
+
+
 .slidershow{
     width: 1350px;
     height: 700px;
@@ -211,16 +213,23 @@ input[name="r"]{
 }
 
 #r2:checked ~ .s1{
-    margin-left: -20;
+    margin-left: -20%;
 }
 
 #r3:checked ~ .s1{
-    margin-left: -40;
+    margin-left: -40%;
 }
 
 #r4:checked ~ .s1{
-    margin-left: -80;
+    margin-left: -60%;
 }
+
+
+
+
+
+
+
 
 /*Cierra banner CSS*/
 
