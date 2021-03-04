@@ -4,12 +4,12 @@
 }
 
 .our-team .container__flex{
-
+    align-items: flex-start;
 }
 
 .our-team__title{
     font-family: 'Pacifico';
-    color: #DE423A;
+    color: #FEC046;
     font-weight: bold;
     font-size: 1.8em;
     margin-bottom: 10px;
@@ -20,5 +20,17 @@
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin: auto;
+    margin: 20px;
+}
+
+.our-team__txt{
+    padding: 10px;
+    text-align: justify;
+}
+
+@media scree and(min-width:480){
+    .our-team__img{
+        width: 150px;
+        height: 150px;
+    }
 }
