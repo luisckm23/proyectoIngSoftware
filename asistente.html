@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Asistente</title>
     <!--stylesheet-->
-    <link rel="stylesheet" type="text/css" href="css/registro.css"/>
+    <link rel="stylesheet" type="text/css" href="css/asistente.css"/>
     <!--icons-->
     <script src= "https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <!--site icon-->
@@ -29,7 +29,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="registro.html">Registro</a></li>
-                <li><a href="contacto.html"><i class="far fa-user"></i></a></li>  
+                <li><a href="#"><i class="far fa-user"></i></a></li>  
                 <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>  
             </ol>
             
@@ -40,66 +40,30 @@
 
 </head>
 <body>
-  <!--Registro usuarios-->
-  <div class="registration">
-    <div class="container">
-        <div class="title">Registro</div>
-        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">Nombre</span>
-                    <input type="text" placeholder="Ingresa nombre" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Nombre de usuario</span>
-                    <input type="text" placeholder="Nombre de usuario" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Correo electrónico</span>
-                    <input type="text" placeholder="Ingresa email" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Contraseña</span>
-                    <input type="password" placeholder="Ingresa contraseña" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Confirmar Contraseña</span>
-                    <input type="password" placeholder="Confirmar contraseña" required>
-                </div>
+  <!--Preguntas-->
+  <div class="container">
+      <div class="title">Preguntas frecuentes</div>
+      
+      <details open>
+          <summary>FAQ 1</summary>
+          <div class="faq__content">
+              <p>Answer 1</p>
             </div>
-            <div class="gender-details">
-                <input type="radio" name="gender" id="dot-1">
-                <input type="radio" name="gender" id="dot-2">
-                <input type="radio" name="gender" id="dot-3">
-                <span class="gender-title">Género</span>
-                <div class="category">
-                    <label for="dot-1">
-                        <span class="dot un"></span>
-                        <span class="gender">Masculino</span>
-                    </label>
-                    <label for="dot-2">
-                        <span class="dot deux"></span>
-                        <span class="gender">Femenino</span>
-                    </label>
-                    <label for="dot-3">
-                        <span class="dot trois"></span>
-                        <span class="gender">Prefiero no decirlo</span>
-                    </label>
-                </div>
+        </details>
+        <details>
+            <summary>FAQ 2</summary>
+            <div class="faq__content">
+                <p>Answer 2</p>
             </div>
-            <div class="buttonreg">
-                <input type="submit" value="Registrarse">
-
+        </details>
+        <details>
+            <summary>FAQ 3</summary>
+            <div class="faq__content">
+                <p>Answer 3</p>
             </div>
-        </form>
+        </details>
+        
     </div>
-</div>
-
-
-
-   
- 
-    
 
 
 <!-- page wrapper-->
@@ -113,7 +77,7 @@
  <div class="footer-content">
 
     <div class="footer-section about"> 
-        <h1 class="logo-text"><span>Somos</span>Nosotros</h1> <br>
+        <h1 class="logo-text"><a href="sobre_nosotros.html">Acerca <span> de nosotros</span></a></h1> <br>
         <p>
             
 
