@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asistente</title>
+    <title>Contacto</title>
     <!--stylesheet-->
-    <link rel="stylesheet" type="text/css" href="css/asistente.css"/>
+    <link rel="stylesheet" type="text/css" href="css/registro.css"/>
     <!--icons-->
     <script src= "https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <!--site icon-->
@@ -29,7 +29,7 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="registro.html">Registro</a></li>
-                <li><a href="sobre_nosotros.html"><i class="far fa-user"></i></a></li>  
+                <li><a href="contacto.html"><i class="far fa-user"></i></a></li>  
                 <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>  
             </ol>
             
@@ -40,55 +40,59 @@
 
 </head>
 <body>
-  <!--Preguntas-->
-  <div class="container">
-      <div class="title">Preguntas frecuentes</div>
-      
-      <details false>
-          <summary>¿Qué datos se necesitan para registrarse?</summary>
-          <div class="faq__content">
-              <p>Sólo debe proporcionar su nombre, username o nombre de usuario, dirección de correo electrónico y contraseña. Visite nuestra página de <a href="registro.html">Registro.</a> </p>
+  <!--Registro usuarios-->
+  <div class="registration">
+    <div class="container">
+        <div class="title">Carrito de compras</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Usuario o correo electrónico</span>
+                    <input type="text" placeholder="Ingresa su usuario o correo electrónico" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Correo electrónico</span>
+                    <input type="text" placeholder="Ingresa email" required>
+                </div>
             </div>
-        </details>
-        <details>
-            <summary>¿Cómo hago un pedido desde su página web?</summary>
-            <div class="faq__content">
-                <p>Primero busque el artículo en nuestro sitio web y luego seleccione el que sea de su agrado. Agréguelo a su carrito. Una vez que haya terminado de comprar, vaya a su carrito y seleccione pagar. Esto le pedirá que ingrese información sobre su dirección de envío e información de la tarjeta de crédito.</p>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Elija el tipo de cobro</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot un"></span>
+                        <span class="gender">Tajerta de débito</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot deux"></span>
+                        <span class="gender">Tarjeta de crédito</span>
+                    </label>
+                </div>
+                <span class="gender-title">Elija el tipo de envío</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot un"></span>
+                        <span class="gender">Normal</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot deux"></span>
+                        <span class="gender">Exprés</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot trois"></span>
+                        <span class="gender">Prefiero no decirlo</span>
+                    </label>
+                </div>
             </div>
-        </details>
-        <details>
-            <summary>¿Puedo comprar un libro digital en librotech-a?</summary>
-            <div class="faq__content">
-                <p>Sí, muchos títulos están disponibles en formato digital en nuestro catálogo. Los verá enumerados junto con otras versiones del libro, si están disponibles.</p>
-            </div>
-        </details>
-        <details>
-            <summary>¿Puedo hacer un pedido especial de un libro en librotech-a?</summary>
-            <div class="faq__content">
-                <p>¡Sí! Aceptamos pedidos especiales y están disponibles sin costo adicional. Envíe un mensaje en nuestra página de <a href="contacto.html">Contacto</a> con toda la información que sepa sobre el libro que está buscando e investigaremos si el libro está disponible.</p>
-            </div>
-        </details>
-        <details>
-            <summary>¿Qué opciones de envío están disponibles?</summary>
-            <div class="faq__content">
-                <p>Los pedidos en línea se pueden recoger en la tienda durante el horario de atención (consulte horarios por COVID-19), o se pueden enviar a su dirección. ¡Asegúrese de que su dirección esté completa y sea correcta antes de enviar pedidos!</p>
-            </div>
-        </details>
-        <details>
-            <summary>¿Cómo sabré que mi pedido ha sido enviado?</summary>
-            <div class="faq__content">
-                <p>Recibirá un mensaje de confirmación cuando su pedido sea procesado. También puede verificar el estado de su pedido iniciando sesión en su cuenta.</p>
-            </div>
-        </details>
-        <details>
-            <summary>¿Qué pasa si tengo otras preguntas o comentarios?</summary>
-            <div class="faq__content">
-                <p>Consulte nuestra página de <a href="contacto.html">Contacto</a>  y envíenos un mensaje.</p>
-            </div>
-        </details>
-        
-    </div>
+            <div class="buttonreg">
+                <input type="submit" value="Finalizar compra">
 
+            </div>
+        </form>
+    </div>
+</div>
 
 <!-- page wrapper-->
 <div class="page-wrapper">
