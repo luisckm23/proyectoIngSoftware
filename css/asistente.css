@@ -268,8 +268,20 @@ nav .search-box span:hover{
     width:100%;
     /*background: #B0A5A1;*/
     outline: #272727;
-    padding:25px 30px;
     border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    text-align: justify;
 }
 .container .title{
     font-size: 25px;
@@ -282,7 +294,7 @@ nav .search-box span:hover{
     left: 0;
     bottom: 0;
     height: 3px;
-    width: 30px;
+    width: 670px;
     background:linear-gradient(135deg, #065471,#FEC046);
 
 }
@@ -290,7 +302,7 @@ summary {
     font-size: 1.25rem;
     font-weight: 600;
     background-color: #fff;
-    color: #333;
+    color: #272727;
     padding: 1rem;
     margin-bottom: 1rem;
     outline: none;
