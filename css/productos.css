@@ -299,3 +299,10 @@ p{
     background:linear-gradient(135deg, #065471,#FEC046);
 
 }
+
+.container .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
