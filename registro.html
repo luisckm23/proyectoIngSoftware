@@ -44,47 +44,31 @@
   <div class="registration">
     <div class="container">
         <div class="title">Registro</div>
-        <form action="#">
+        <form action="clientes.php" class="form-register" method="post" enctype="multipart/form-data">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Nombre</span>
-                    <input type="text" placeholder="Ingresa nombre" required>
+                    <input type="text" placeholder="Ingresa nombre" name="nombre" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Nombre de usuario</span>
-                    <input type="text" placeholder="Nombre de usuario" required>
+                    <input type="text" placeholder="Nombre de usuario" name="usuario" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Correo electrónico</span>
-                    <input type="text" placeholder="Ingresa email" required>
+                    <input type="text" placeholder="Ingresa email" name="e_mail" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Contraseña</span>
-                    <input type="password" placeholder="Ingresa contraseña" required>
+                    <input type="password" placeholder="Ingresa contraseña" name="contraseña" required>
                 </div>
                 <div class="input-box">
-                    <span class="details">Confirmar Contraseña</span>
-                    <input type="password" placeholder="Confirmar contraseña" required>
+                    <span class="details">Dirección</span>
+                    <input type="text" placeholder="Ingresa tu dirección" name="direccion" required>
                 </div>
-            </div>
-            <div class="gender-details">
-                <input type="radio" name="gender" id="dot-1">
-                <input type="radio" name="gender" id="dot-2">
-                <input type="radio" name="gender" id="dot-3">
-                <span class="gender-title">Género</span>
-                <div class="category">
-                    <label for="dot-1">
-                        <span class="dot un"></span>
-                        <span class="gender">Masculino</span>
-                    </label>
-                    <label for="dot-2">
-                        <span class="dot deux"></span>
-                        <span class="gender">Femenino</span>
-                    </label>
-                    <label for="dot-3">
-                        <span class="dot trois"></span>
-                        <span class="gender">Prefiero no decirlo</span>
-                    </label>
+                <div class="input-box">
+                    <span class="details">Teléfono</span>
+                    <input type="text" placeholder="Ingresa tu teléfono" name="telefono" required>
                 </div>
             </div>
             <div class="buttonreg">
