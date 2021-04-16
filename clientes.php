@@ -1,6 +1,9 @@
 <?php
-    $link = mysql_connect("localhost", "root", "");
-    $db mysql_select_db("librotecha", $link) or die ("<h2>Error de conexión</h2>");
+    $servername = "localhost";
+    $username = "username";
+    $librotheca = "librotecha";
+    $conn = mysqli_connect($servername, $username, '');
+    $db =  mysqli_select_db($librotheca, $conn);
 
     $nombre = $_POST('nombre');
     $nombre_usuario = $_POST('usuario');
